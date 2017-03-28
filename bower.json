@@ -3,13 +3,14 @@
   "description": "",
   "main": "index.js",
   "license": "ISC",
-  "homepage": "",
+  "homepage": "https://github.com/sohanpratap/react-node",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "app/lib"
   ],
   "dependencies": {
     "bootstrap-css": "^3.3.7"

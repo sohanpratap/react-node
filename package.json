@@ -17,5 +17,13 @@
     "react-dom": "^15.4.2",
     "reactify": "^1.1.1",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohanpratap/react-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sohanpratap/react-node/issues"
+  },
+  "homepage": "https://github.com/sohanpratap/react-node#readme"
 }
