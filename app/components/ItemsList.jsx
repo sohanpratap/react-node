@@ -24,7 +24,7 @@ module.exports = React.createClass({
 
                           <div className="col-md-8 pull-left">
                             <div className="form-group form-control-by-1">
-                              <input type="text" placeholder="Search for restaurants,dishes or cuisines" id="restaurant" name="restaurant" className="form-control-search" />
+                              <input type="text" placeholder="Search for restaurants,dishes or cuisines" id="restaurant" name="restaurant" className="form-control-search"/>
                             </div>
                           </div>
 
@@ -85,7 +85,7 @@ module.exports = React.createClass({
                 <h1>
                   <a className="action" href="#">PROCEED TO CHECKOUT</a>
                 </h1>
-                <div className="row property-simple-wrapper">
+                <div className="row">
                 {
                     this.props.items.map(function(s,index){
                         return(

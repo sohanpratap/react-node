@@ -7898,7 +7898,7 @@ p.text {
 }
 
 .box {
-    background-color: #FAFAFA;
+    background-color: #F5F5F5;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
     margin: 0px 0px 30px 0px;
     padding: 16px;
@@ -12384,26 +12384,28 @@ button.btn, button.btn-secondary {
     font-weight: 600;
 }
 
-.property-simple-wrapper {
+/*.item-simple-wrapper {
     margin-bottom: -30px;
-}
+}*/
 
-.property-simple {
+.item-simple {
     margin-bottom: 30px;
+    background-color: white;
+    margin-top: 20px;
 }
 
-.property-simple-image {
+.item-detail {
     display: block;
     position: relative;
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgb(254, 254, 254);;
     display: block;
-    min-height: 75px;
+    min-height: 105px;
     position: relative;
 }
 
-.property-simple-image:after {
+.item-detail:after {
     background-color: black;
-    background-image: url("../img/magnifier.png");
+    /*background-image: url("../img/magnifier.png");*/
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 32px 32px;
@@ -12417,17 +12419,16 @@ button.btn, button.btn-secondary {
     top: 0px;
     transition: opacity .15s linear;
     vertical-align: middle;
-    width: 100%;
+    width: 50%;
     z-index: 3;
 }
 
-.property-simple-image:hover:after {
+.item-detail:hover:after {
     opacity: .5;
 }
 
-.property-simple-image:before {
+.item-detail:before {
     color: rgba(0, 0, 0, 0.2);
-    content: "ï€•";
     display: block;
     font-family: 'FontAwesome';
     font-size: 40px;
@@ -12439,54 +12440,55 @@ button.btn, button.btn-secondary {
     z-index: 0;
 }
 
-.footer .property-simple-image:before {
+.footer .item-detail:before {
     color: #42A5F5;
 }
 
-.property-simple-image img {
+.item-detail img {
     display: block;
     position: relative;
-    width: 100%;
+    width: 50%;
     z-index: 2;
 }
 
-.property-simple-title {
+.item-simple-title {
     font-size: 15px;
     margin: 15px 0px 0px 0px;
+
 }
 
-.property-simple-title a {
+.item-simple-title a {
     color: #232323;
 }
 
-.property-simple-location {
+.item-simple-location {
     list-style: none;
     margin: 0px;
     padding: 0px;
 }
 
-.property-simple-location li {
+.item-simple-location li {
     display: inline;
 }
 
-.property-simple-location li a {
+.item-simple-location li a {
     color: #9E9E9E;
     font-size: 11px;
     font-weight: 500;
     text-transform: uppercase;
 }
 
-.property-simple-status {
+.item-simple-status {
     color: rgba(0, 0, 0, 0.7);
     font-size: 11px;
     margin: 3px 0px 0px 0px;
 }
 
-.property-simple-status strong.red {
+.item-simple-status strong.red {
     color: #EF5350;
 }
 
-.property-simple-status strong.green {
+.item-simple-status strong.green {
     color: #66BB6A;
 }
 
@@ -13206,7 +13208,7 @@ button.btn, button.btn-secondary {
         width: 250px;
     }
 
-    .property-carousel .property-simple-image {
+    .property-carousel .item-detail {
         min-height: 60px;
     }
 }
@@ -13378,4 +13380,33 @@ button.btn, button.btn-secondary {
 .form-control-by-2{
     margin-left: -25px;
 }
+.header-font-option{
+    font-family: monospace;
+    font-size: 45px;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+.currency-color{
+    color: green;
+}
+.star-option{
+    padding-left: 50px;
+}
+.star-option-icon-color{
+    color: orange;
+}
+.star-text-option{
+    padding-left: 10px;
+}
+.time-option{
+    padding-left: 50px;
+}
+.time-option-color{
+   color: green;
+}
+.time-text-option{
+    padding-left: 10px;
+}
+
+/* End hide from IE-mac */
 /*# sourceMappingURL=realsite.css.map */
