@@ -13408,5 +13408,39 @@ button.btn, button.btn-secondary {
     padding-left: 10px;
 }
 
+.search-input-box{
+    color: black;
+}
+
+.search-input-box::-webkit-input-placeholder {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.search-input-box::-moz-placeholder  {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.search-input-box:-ms-input-placeholder  {
+    font-family: FontAwesome;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
 /* End hide from IE-mac */
 /*# sourceMappingURL=realsite.css.map */

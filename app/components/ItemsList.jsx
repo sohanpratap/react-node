@@ -24,7 +24,7 @@ module.exports = React.createClass({
 
                           <div className="col-md-8 pull-left">
                             <div className="form-group form-control-by-1">
-                              <input type="text" placeholder="Search for restaurants,dishes or cuisines" id="restaurant" name="restaurant" className="form-control-search"/>
+                                <input type="text" placeholder="&#61442; Search for restaurants,dishes or cuisines" id="restaurant" name="restaurant" className="form-control-search search-input-box"/>
                             </div>
                           </div>
 
