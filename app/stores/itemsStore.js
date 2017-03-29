@@ -2,15 +2,15 @@ var dispatcher = require("../dispatcher");
 
 function ItemStore() {
     var listeners = [];
-    var items = [{ name: "Lovedale", tagline:"A wonderful school" }, 
-                { name: "Bishop",tagline:"An awesome school" }, 
-                { name: "Daffodils", tagline:"An excellent school" },
-                { name: "Bishop1",tagline:"An awesome school" },
-                { name: "Bishop2",tagline:"An awesome school" },
-                { name: "Bishop3",tagline:"An awesome school" },
-                { name: "Bishop4",tagline:"An awesome school" },
-                { name: "Bishop5",tagline:"An awesome school" },
-                { name: "Bishop6",tagline:"An awesome school" }];
+    var items = [{id:1, name: "Lovedale", tagline:"A wonderful school" }, 
+                { id:2, name: "Bishop",tagline:"An awesome school" }, 
+                { id:3, name: "Daffodils", tagline:"An excellent school" },
+                { id:4, name: "Bishop1",tagline:"An awesome school" },
+                { id:5, name: "Bishop2",tagline:"An awesome school" },
+                { id:6, name: "Bishop3",tagline:"An awesome school" },
+                { id:7, name: "Bishop4",tagline:"An awesome school" },
+                { id:8, name: "Bishop5",tagline:"An awesome school" },
+                { id:9, name: "Bishop6",tagline:"An awesome school" }];
 
     function getItems() {
         return items;
