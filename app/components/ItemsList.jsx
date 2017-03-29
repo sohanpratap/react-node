@@ -5,10 +5,9 @@ module.exports = React.createClass({
    render:function(){
        return(
           <div className="row">
-            <div className ="content col-sm-12 col-md-12">    
-              
+            <div className ="content col-sm-12 col-md-12">
               <div className="row">
-                <div className="col-md-10 col-md-offset-1">
+                <div className="col-md-12 col-md-offset-0">
                   <div className="form-section">
                     <div className="row">
                       <form role="form">
@@ -23,39 +22,38 @@ module.exports = React.createClass({
                             </div>
                           </div>
 
-                          <div className="col-md-8">
-                            <div className="form-group">
-                              <input type="text" placeholder="Search for restaurants,dishes or cuisines" id="restaurant" name="restaurant" className="form-control" />
+                          <div className="col-md-8 pull-left">
+                            <div className="form-group form-control-by-1">
+                              <input type="text" placeholder="Search for restaurants,dishes or cuisines" id="restaurant" name="restaurant" className="form-control-search" />
                             </div>
                           </div>
 
                           <div className="col-md-2">
-                          <button className="btn btn-default btn-primary" type="submit">Search</button>
+                          <button className="btn btn-default btn-success" type="submit">Search</button>
                           </div>
                       </form>
                     </div>
 
                     <div className="row">
                       <form role="form">
-
-                          <div className="col-md-2">
-                            <div className="form-group">
+                          <div className="col-md-1">
+                            <div className="form-group font-group-font-size">
                               FILTER BY:
                             </div>
                           </div>
 
-                          <div className="col-md-2">
+                          <div className="col-md-2 pull-left">
                             <div className="form-group">
-                              <select className="form-control" name="cuisine" id="cuisine">
+                              <select className="form-control form-control-by-1" name="cuisine" id="cuisine">
                                   <option value="">CUISINE</option>
                                   <option value="mumbai">Mumbai</option>
                               </select>
                             </div>
                           </div>
 
-                          <div className="col-md-2">
+                          <div className="col-md-2 pull-left">
                             <div className="form-group">
-                              <select className="form-control" name="budget" id="budget">
+                              <select className="form-control form-control-by-2" name="budget" id="budget">
                                   <option value="">BUDGET</option>
                                   <option value="mumbai">Mumbai</option>
                               </select>
@@ -67,7 +65,7 @@ module.exports = React.createClass({
                             </div>
                           </div>
 
-                          <div className="col-md-2">
+                          <div className="col-md-3 pull-right">
                             <div className="form-group">
                               <select className="form-control" name="budget" id="budget">
                                   <option value="">SORT BY</option>
